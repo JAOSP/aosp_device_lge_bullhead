@@ -14,4 +14,7 @@
 # limitations under the License.
 #
 
+add_lunch_combo aosp_bullhead-user
 add_lunch_combo aosp_bullhead-userdebug
+add_lunch_combo full_bullhead-user
+add_lunch_combo full_bullhead-userdebug
