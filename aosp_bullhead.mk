@@ -33,6 +33,9 @@ PRODUCT_RESTRICT_VENDOR_FILES := true
 
 $(call inherit-product, device/lge/bullhead/device.mk)
 $(call inherit-product-if-exists, vendor/lge/bullhead/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/bullhead/bullhead-vendor.mk)
+$(call inherit-product-if-exists, vendor/aosp/lge/bullhead/aosp.mk)
+$(call inherit-product, device/aosp/common/aosp.mk)
 
 PRODUCT_PACKAGES += \
     Launcher3
