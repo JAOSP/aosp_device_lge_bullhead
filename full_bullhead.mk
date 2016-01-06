@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES := device/lge/bullhead/apns-full-conf.xml:system/etc/apns-con
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=bullhead TARGET_DEVICE=bullhead BUILD_FINGERPRINT=google/bullhead/bullhead:6.0/MDB08M/2353240:user/release-keys PRIVATE_BUILD_DESC="bullhead-user 6.0 MDB08M 2353240 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=bullhead TARGET_DEVICE=bullhead BUILD_FINGERPRINT=google/bullhead/bullhead:6.0.1/MMB29P/2473553:user/release-keys PRIVATE_BUILD_DESC="bullhead-user 6.0.1 MMB29P 2473553 release-keys"
 
 PRODUCT_NAME := full_bullhead
 PRODUCT_DEVICE := bullhead
